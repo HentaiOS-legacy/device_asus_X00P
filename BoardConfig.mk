@@ -190,8 +190,9 @@ TARGET_USES_OLD_MNC_FORMAT := true
 VENDOR_SECURITY_PATCH := 2020-03-05
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+# include device/qcom/sepolicy/sepolicy.mk
+# BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-tmp
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
