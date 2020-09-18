@@ -20,6 +20,10 @@ cc_library_static {
     srcs: ["init_X00P.cpp"],
     include_dirs: [
         "system/core/base/include",
-        "system/core/init"
-    ]
+        "system/core/init",
+        "external/selinux/libselinux/include"
+    ],
+    shared_libs: [
+        "libbase",
+    ],
 }
