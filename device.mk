@@ -437,5 +437,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
+    librsjni
+
 # Inherit common proprietary files
-$(call inherit-product-if-exists, vendor/asus/X00P/X00P-vendor.mk)
+$(call inherit-product, vendor/asus/X00P/X00P-vendor.mk)
