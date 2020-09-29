@@ -818,11 +818,11 @@ vendor/lib64/libssc_default_listener.so|125d692f30609c62d9289fbab8958c23be4db878
 vendor/lib64/sensors.ssc.so|94befb222788f7ae15c757e12fe3eda93bf583b5
 vendor/lib64/sensor_calibrate.so|51c0bb2f5098ae02353858d6c39480292fab9449
 
-# Thermal - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
-vendor/bin/thermal-engine|1adec8c5de1a095ed790879e5aabe1e249c816e3
--vendor/lib/libthermalclient.so|5366dedac700727f05ed1729bf00c855d0777de4
--vendor/lib64/libthermalclient.so|fead3fb780b175ef478c7ab120639dea5b37a802
-vendor/lib64/libthermalioctl.so|dbb89b6990fed7373cbfcfeac9c90a5dd2bc2bdd
+# Thermal - from LA.UM.9.6.2.r1-02100-89xx.0
+vendor/bin/thermal-engine|198c19d8b8d98b9292cf424aeb721c0dfee56f8f
+vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48
+vendor/lib/libthermalclient.so|61becb3664bb8b445cec53c2f173af82ed1ad7ae
+vendor/lib64/libthermalclient.so|8f2411404f56c6d15e6a185124bbc7f8c2adf195
 
 # Time services - from LA.UM.8.6.2.r1-06600-89xx.0
 -vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
