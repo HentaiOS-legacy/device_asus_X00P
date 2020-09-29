@@ -130,6 +130,11 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_X00P
+TARGET_RECOVERY_DEVICE_MODULES := libinit_X00P
+TARGET_LIBINIT_MSM8937_DEFINES_FILE := $(DEVICE_PATH)/init/init_X00P.cpp
+
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000
